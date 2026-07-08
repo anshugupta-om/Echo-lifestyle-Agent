@@ -1,0 +1,162 @@
+[
+  {
+    "id": "eco_001",
+    "category": "waste_management",
+    "title": "The 5Rs of Zero Waste Living",
+    "content": "The zero-waste hierarchy prioritizes actions in this order: Refuse what you don't need, Reduce what you do need, Reuse what you already have, Recycle what you can't refuse/reduce/reuse, and Rot (compost) the rest. By following these 5Rs, households can divert over 90% of waste from landfills. The average person generates about 4.4 pounds of trash per day, but a committed zero-waster can reduce this to less than 1 pound per year. Key strategies include: buying in bulk using reusable containers, choosing products with minimal or compostable packaging, repairing items instead of replacing them, donating or selling unwanted goods, and setting up home composting systems.",
+    "source": "Zero Waste International Alliance",
+    "tags": ["waste", "recycling", "zero-waste", "composting"]
+  },
+  {
+    "id": "eco_002",
+    "category": "waste_management",
+    "title": "Plastic Waste Reduction Strategies",
+    "content": "Plastic pollution is one of the most pressing environmental crises. Over 380 million tonnes of plastic are produced annually, with less than 9% ever recycled. Single-use plastics (SUPs) such as straws, bags, cutlery, and packaging account for 40% of all plastic produced. Effective strategies to reduce plastic waste: (1) Carry reusable bags, bottles, and utensils. (2) Choose products packaged in glass, metal, or cardboard. (3) Buy fresh produce loose rather than pre-packaged. (4) Use soap bars instead of liquid soap in plastic bottles. (5) Refuse plastic straws — use bamboo, metal, or glass alternatives. (6) Switch to bamboo toothbrushes and compostable dental floss. (7) Support businesses and brands committed to plastic-free packaging. (8) Participate in beach and community clean-up drives. Micro-plastics from synthetic fabrics can be reduced by using a GuppyFriend washing bag or installing a washing machine micro-plastic filter.",
+    "source": "UNEP — Plastic Pollution Report 2023",
+    "tags": ["plastic", "single-use", "pollution", "reduction"]
+  },
+  {
+    "id": "eco_003",
+    "category": "waste_management",
+    "title": "Waste Segregation at Source — A Complete Guide",
+    "content": "Proper waste segregation at the point of generation is the foundation of effective waste management. Waste is broadly classified into: (1) Wet/Organic waste — kitchen scraps, food leftovers, fruit/vegetable peels — should be composted or sent to biogas plants. Green bins are used in most Indian municipalities. (2) Dry/Recyclable waste — paper, cardboard, plastic bottles, glass, metal cans — should be cleaned and sorted before disposal. Blue bins are standard in India. (3) Hazardous waste — batteries, e-waste, medicines, paints, chemicals — must never be mixed with regular waste. (4) Sanitary waste — diapers, sanitary napkins — must be wrapped and disposed separately. (5) E-waste — phones, laptops, cables, chargers — should be returned to manufacturer take-back programs or certified e-waste recyclers. Under India's Solid Waste Management Rules 2016, all residential complexes with more than 50 units must have on-site composting facilities. Wet waste accounts for 50-60% of municipal solid waste in Indian cities.",
+    "source": "Ministry of Environment, Forest and Climate Change (MoEFCC), India — SWM Rules 2016",
+    "tags": ["segregation", "dry-waste", "wet-waste", "india", "municipal"]
+  },
+  {
+    "id": "eco_004",
+    "category": "water_conservation",
+    "title": "Home Water Conservation — 20 Proven Techniques",
+    "content": "Water scarcity affects over 2 billion people globally. The average Indian household uses 135 litres per person per day, while recommended minimum is 55 litres. Major water-saving techniques: (1) Fix leaking taps — a dripping tap wastes 15–20 litres/day. (2) Install aerators on taps to reduce flow by 50% without affecting pressure. (3) Use dual-flush toilets (3L/6L) instead of single flush (10L+). (4) Take showers instead of baths — saves 100+ litres per session. (5) Turn off taps while brushing teeth — saves 6 litres/minute. (6) Collect grey water (from baths/washing) for garden use. (7) Drip irrigation for gardens uses 30–50% less water than sprinklers. (8) Water plants in early morning or evening to reduce evaporation. (9) Mulch garden beds to retain soil moisture. (10) Install a rainwater harvesting system — a 100m² roof can collect 50,000+ litres per year in 500mm rainfall areas. (11) Choose drought-resistant native plants for landscaping. (12) Run dishwashers and washing machines only on full loads. (13) Defrost food in the refrigerator instead of under running water. (14) Steam vegetables instead of boiling to save up to 70% water. (15) Use a bucket instead of a hosepipe for car washing — saves 150 litres per wash.",
+    "source": "WHO/UNICEF Joint Monitoring Programme; Central Water Commission India",
+    "tags": ["water", "conservation", "rainwater", "household", "irrigation"]
+  },
+  {
+    "id": "eco_005",
+    "category": "water_conservation",
+    "title": "Rainwater Harvesting Systems",
+    "content": "Rainwater harvesting (RWH) is the collection and storage of rain for on-site use, reducing dependence on municipal supply and groundwater. Types of RWH systems: (1) Rooftop RWH — the most common; collects rain from roofs via gutters into storage tanks or recharge pits. A 100m² roof in a region with 800mm annual rainfall can collect approximately 72,000 litres per year after accounting for losses. (2) Surface runoff harvesting — farm ponds, check dams, percolation tanks that capture overland flow. (3) Groundwater recharge structures — injection wells, recharge trenches that channel water underground. Key components: first-flush diverters (discard first 2 litres per m² of roof to remove dust/bird droppings), mesh screens for leaf filtering, UV or chlorine treatment for potable use. In India, the National Water Mission under the National Action Plan on Climate Change (NAPCC) promotes RWH. States like Tamil Nadu have made RWH mandatory for all new buildings. Typical cost of a 10,000-litre rooftop RWH system: ₹15,000–₹30,000 with payback period of 2–5 years.",
+    "source": "Central Ground Water Board (CGWB), India; National Water Mission NAPCC",
+    "tags": ["rainwater", "harvesting", "groundwater", "rooftop", "india"]
+  },
+  {
+    "id": "eco_006",
+    "category": "energy",
+    "title": "Renewable Energy for Homes — Solar, Wind, and Biogas",
+    "content": "Transitioning to renewable energy at the household level significantly reduces carbon footprint. Solar PV options: (1) Rooftop Solar — India has 300+ sunny days/year; a 3kW system generates ~360 kWh/month, sufficient for a medium household. MNRE PM Surya Ghar Muft Bijli Yojana provides subsidies of up to ₹78,000 for 3kW systems. (2) Solar water heaters — a 100-litre/day flat-plate collector costs ₹15,000–₹25,000 and pays back in 3–4 years. (3) Solar cookers — parabolic models can cook for a family of 4–5, saving 3–4 LPG cylinders per year. Wind energy for homes: Small wind turbines (1–10 kW) are viable in coastal and hilly areas with average wind speed >4 m/s. Biogas plants: Family biogas plants using kitchen waste and cattle dung can produce 1–3 m³ of gas per day, replacing 1 LPG cylinder per month. MNRE subsidises biogas plants at ₹7,000–₹15,000 per unit. Energy storage: Lithium iron phosphate (LFP) home batteries now cost ₹30,000–₹60,000 per kWh of storage, enabling 24-hour solar-powered homes. Net metering allows export of excess solar power to the grid for credit.",
+    "source": "MNRE (Ministry of New and Renewable Energy), India; IEA Renewable 2024",
+    "tags": ["solar", "renewable", "wind", "biogas", "energy", "mnre"]
+  },
+  {
+    "id": "eco_007",
+    "category": "energy",
+    "title": "Home Energy Efficiency — Reducing Consumption",
+    "content": "Energy efficiency at home is the cheapest and cleanest form of new energy. Key measures: (1) Lighting — switch all bulbs to LED; they use 75% less energy than incandescent and last 25× longer. A household switching 10 bulbs saves ₹2,000–₹3,000 per year. (2) Air conditioning — choose 5-star BEE-rated inverter ACs; set thermostat at 24–26°C (1°C higher = 6% energy saving). Use ceiling fans with ACs to feel cooler at higher thermostat settings. (3) Refrigerators — BEE 5-star models use 40% less electricity; keep coils clean and maintain 3–5 cm clearance for ventilation. Do not keep hot food in the fridge. (4) Cooking — pressure cookers use 50–70% less energy than open pots; induction cooktops are 85–90% efficient vs. 35–40% for gas (energy basis). (5) Building envelope — proper insulation, double-glazed windows, and reflective roof coatings can cut cooling/heating loads by 30–40%. White or cool-roof coating reduces surface temperature by 10–15°C. (6) Standby power — devices on standby consume 5–10% of home electricity; use smart power strips or switch off at the socket. (7) Water heaters — solar water heaters or heat pump water heaters (CoP 3–4) are dramatically more efficient than electric resistance heaters.",
+    "source": "Bureau of Energy Efficiency (BEE), India; TERI Energy Efficiency Guide",
+    "tags": ["energy-efficiency", "led", "air-conditioning", "solar", "bee-rating"]
+  },
+  {
+    "id": "eco_008",
+    "category": "transport",
+    "title": "Sustainable Transportation Options",
+    "content": "Transportation accounts for ~24% of global CO₂ emissions. Individual transport choices significantly impact carbon footprint. Carbon intensity by mode (gCO₂/passenger-km): Domestic aviation: 255; Personal car (petrol, single occupant): 171; Personal car (diesel, single occupant): 140; Bus: 89; Train (India): 35–60; Electric car (India grid): 50–80; Cycling: 5–8 (from food energy); Walking: ~0. Key actions: (1) Public transit first — buses and trains reduce per-passenger emissions by 70–90% vs. private cars. (2) Active transport — cycling and walking for trips under 5 km eliminates emissions and improves health. (3) EV transition — electric two-wheelers and cars reduce lifetime emissions by 40–70% even on India's current grid, improving as renewable penetration grows. FAME II scheme provides ₹10,000–₹20,000 subsidy per electric two-wheeler. (4) Carpooling — sharing a ride with 3 others cuts emissions per person by 75%. Platforms: Blablacar, Quick Ride. (5) Trip consolidation — combine multiple errands in one trip; remote work eliminates commute emissions. (6) Teleconferencing — one avoided long-haul flight saves 1–3 tonnes CO₂. India's annual per capita transport emission is ~0.3 tCO₂ — far below the global average of 1.6 tCO₂ but rising rapidly.",
+    "source": "Our World in Data — Transport Emissions; IPCC AR6 Working Group III",
+    "tags": ["transport", "electric-vehicle", "cycling", "public-transit", "carbon-footprint"]
+  },
+  {
+    "id": "eco_009",
+    "category": "transport",
+    "title": "Electric Vehicles in India — Benefits, Schemes, and Charging",
+    "content": "India targets 30% EV penetration for private cars and 70% for commercial vehicles by 2030 under the National Electric Mobility Mission Plan (NEMMP). Current status (2024): 1.5 million EVs sold annually; over 12,000 public charging stations; battery costs fallen 89% since 2010. Benefits of EVs: (1) Zero tailpipe emissions; improve urban air quality. (2) 70% lower fuel costs — driving 10,000 km/year costs ~₹5,000 in electricity vs. ₹50,000+ for petrol. (3) 60–70% lower lifetime CO₂ even on current India grid; improves to 80–90% with renewable energy growth. (4) Lower maintenance — no oil changes, fewer brake replacements (regenerative braking). Government schemes: FAME II — ₹10,000 crore fund for EV adoption; PM e-Drive — additional ₹10,900 crore approved 2024. State-level subsidies: Maharashtra (₹5,000/kWh), Delhi (₹5,000–₹30,000), Goa (30% purchase subsidy). Charging: Home charging (7.4 kW AC) fully charges most EVs overnight; 60 kW DC fast charger provides 80% charge in ~30 min. EESL's nationwide charging network expanding rapidly. Best EV options for Indian consumers (2024): Tata Nexon EV (range 465 km), Ola S1 Pro (e-scooter, 195 km), Ather 450X (e-scooter, 146 km).",
+    "source": "NITI Aayog EV Report; FAME II Scheme Notification; IEA Global EV Outlook 2024",
+    "tags": ["electric-vehicle", "ev", "india", "fame-ii", "charging", "subsidy"]
+  },
+  {
+    "id": "eco_010",
+    "category": "food",
+    "title": "Sustainable Eating — Plant-Based Diets and Food Waste Reduction",
+    "content": "The food system accounts for 26% of global greenhouse gas emissions. Dietary choices are among the most powerful individual levers for reducing environmental impact. Carbon footprint by food (kgCO₂e per kg of food): Beef: 60; Lamb: 24; Cheese: 21; Pork: 7; Chicken: 6; Fish (farmed): 5; Eggs: 4.5; Rice: 4; Tofu: 3.5; Legumes (lentils/chickpeas): 0.9; Vegetables: 0.4. Transitioning from meat-heavy to plant-rich diets can reduce food-related emissions by 50–73%. Key actions: (1) Adopt Meatless Monday or reduce red meat to once per week. (2) Choose locally grown, seasonal produce — avoids long-distance refrigerated transport. (3) Reduce food waste — 1/3 of all food is wasted globally, representing 3.3 billion tonnes of CO₂e. (4) Meal planning and proper refrigeration — 40% of food waste occurs at household level. (5) Compost unavoidable food waste — diverts organic matter from landfills where it produces methane (28× more potent than CO₂). (6) Support organic and regenerative agriculture — builds soil carbon, reduces synthetic fertiliser use. (7) Grow kitchen herbs and vegetables at home — zero food-miles, fresh nutrition. India's traditional dal-rice-sabzi diet is one of the lowest-carbon diets globally.",
+    "source": "Poore & Nemecek (2018) Science; FAO Food Waste Report; IPCC SR1.5",
+    "tags": ["food", "plant-based", "food-waste", "composting", "carbon-footprint"]
+  },
+  {
+    "id": "eco_011",
+    "category": "government_schemes",
+    "title": "India Government Environmental Schemes — Complete Directory 2024",
+    "content": "India has launched numerous schemes to promote sustainability and environmental protection: (1) PM Surya Ghar Muft Bijli Yojana (2024) — rooftop solar subsidies up to ₹78,000 for 3kW; 300 units free electricity/month for 10 million homes; apply at pmsuryaghar.gov.in. (2) FAME India Phase II — ₹10,000 crore for EV adoption; subsidies for electric buses, 3-wheelers, 2-wheelers; administered by DHIPL/MHI. (3) PM-KUSUM (Kisan Urja Suraksha evam Utthaan Mahabhiyan) — solar pumps for farmers; 35–40% subsidy; 7.5 lakh solar pumps targeted. (4) National Biogas Programme — MNRE subsidises biogas plants ₹7,000–₹15,000/unit; processes organic waste into cooking fuel and bioslurry fertiliser. (5) Atal Mission for Rejuvenation and Urban Transformation (AMRUT) 2.0 — ₹77,000 crore for water supply, sewerage, urban greenery in 500+ cities. (6) Jal Jeevan Mission — ₹3.6 lakh crore to provide tap water to every rural household by 2024; promotes water conservation. (7) National Clean Air Programme (NCAP) — 40% PM reduction target by 2026 in 132 non-attainment cities. (8) Swachh Bharat Mission — ODF (Open Defecation Free) status for all villages; construction of household toilets; solid waste management for urban areas. (9) CAMPA (Compensatory Afforestation) — Rs 50,000 crore for afforestation and forest conservation. (10) National Action Plan on Climate Change (NAPCC) — 8 missions including National Solar Mission, National Water Mission, Green India Mission.",
+    "source": "PIB India; MNRE; MoEFCC; Government of India Official Schemes Portal",
+    "tags": ["government", "schemes", "india", "solar", "ev", "water", "policy"]
+  },
+  {
+    "id": "eco_012",
+    "category": "government_schemes",
+    "title": "State-Level Environmental Incentives — Key States",
+    "content": "In addition to central government schemes, Indian states offer significant environmental incentives: Maharashtra: (1) MREDC Solar Subsidy — ₹5,000/kWh for residential solar. (2) EV incentive ₹25,000 for 2-wheelers, ₹1.5 lakh for 4-wheelers. (3) Plastic ban on single-use plastics < 50 microns since 2018. Delhi: (1) EV subsidy up to ₹30,000 for 2-wheelers, ₹1.5 lakh for cars. (2) Switch Delhi campaign — free EV insurance for first year. (3) 100% road tax waiver for EVs. (4) Odd-Even car rationing scheme for air quality. Gujarat: (1) Solar Rooftop Yojana — ₹10,000/kW subsidy up to 3kW. (2) EV policy — 25% subsidy capped at ₹1.75 lakh for 4-wheelers. Rajasthan: (1) Mukhyamantri Solar Pump Yojana — 10,000+ solar pumps installed. (2) EV purchase incentive ₹10,000 for 2-wheelers. Tamil Nadu: (1) Tamil Nadu Green Energy Corporation — net metering and group net metering for solar. (2) Mandatory rooftop RWH for all buildings. Telangana: (1) TS Solar Rooftop Policy — ₹20,000 subsidy for residential. (2) Go Electric Campaign — 100% EV for government vehicles by 2030. Karnataka: (1) Solar Water Heater Subsidy — ₹7,500 for EWS/LIG. (2) KREDL renewable energy programs.",
+    "source": "State Renewable Energy Development Agencies; State EV Policies 2024",
+    "tags": ["state-schemes", "india", "solar", "ev", "incentives", "policy"]
+  },
+  {
+    "id": "eco_013",
+    "category": "recycling",
+    "title": "E-Waste Management and Recycling Guide",
+    "content": "Electronic waste (e-waste) is the world's fastest-growing waste stream — 53.6 million metric tonnes generated in 2019, expected to reach 74 Mt by 2030. Only 17.4% is formally recycled. E-waste contains valuable materials (gold, silver, copper, palladium) but also hazardous substances (lead, mercury, cadmium, chromium) that cause severe health impacts when improperly disposed. What constitutes e-waste: mobile phones, laptops, tablets, TVs, refrigerators, washing machines, air conditioners, batteries, chargers, cables, LED bulbs. How to responsibly recycle e-waste in India: (1) Producer Take-Back Programs — under E-Waste Management Rules 2022, all producers must provide collection points; check brand websites (Samsung, Apple, LG, Dell all have programs). (2) Authorised E-Waste Recyclers — find certified recyclers at mpcb.gov.in, cpcb.nic.in, or via the e-Disha portal. (3) Attero, Eco Birdd, Exigo Recycling, Earth Sense Recycle — major organised sector e-waste companies. (4) Scrap dealers (kabadiwala) — handle bulk volumes but may lack formal certifications. (5) Extended Producer Responsibility (EPR) — mandatory under E-Waste Rules; producers must collect and recycle fixed % of units sold. Best practices: never throw electronics in regular trash; remove personal data before recycling; donate working devices to schools/NGOs; repair rather than replace.",
+    "source": "Global E-Waste Monitor 2020; MoEFCC E-Waste Management Rules 2022; CPCB India",
+    "tags": ["e-waste", "recycling", "electronics", "india", "epr", "hazardous"]
+  },
+  {
+    "id": "eco_014",
+    "category": "recycling",
+    "title": "Composting at Home — Complete Beginner to Expert Guide",
+    "content": "Composting is nature's recycling — converting organic waste into nutrient-rich soil amendment. In India, organic waste forms 50–60% of household waste; composting this at home can eliminate over half your bin. Types of home composting: (1) Aerobic bin composting — kitchen scraps + dry leaves/paper in a ventilated bin; takes 6–8 weeks; produces excellent compost for gardens. Carbon-to-nitrogen ratio (C:N) should be ~30:1 — roughly 3 parts brown (leaves, paper, cardboard) to 1 part green (food scraps, grass). (2) Vermicomposting — uses red earthworms (Eisenia fetida); processes waste faster (2–4 weeks); produces vermicast, 5× richer in nutrients than regular compost. Worm bins can live indoors/on balconies. (3) Bokashi composting — anaerobic fermentation using EM (effective microorganism) bran; accepts meat, dairy, cooked food that regular composting cannot; produces pre-compost in 2 weeks. (4) Biogas plants — larger units (suitable for apartments/communities) convert organic waste to cooking gas + liquid fertiliser. Do compost: fruit/vegetable peels, coffee grounds, tea leaves, eggshells, garden clippings, shredded paper/cardboard. Do NOT compost: meat/bones, dairy, oils/fats, diseased plants, pet faeces, synthetic materials. Finished compost: dark brown, crumbly, earthy smell — apply to soil at 5 cm depth.",
+    "source": "CPHEEO Guidelines; National Mission for Sustainable Agriculture; Organic India",
+    "tags": ["composting", "vermicomposting", "organic-waste", "soil", "bokashi"]
+  },
+  {
+    "id": "eco_015",
+    "category": "sustainable_products",
+    "title": "Eco-Friendly Product Alternatives — Room by Room Guide",
+    "content": "Switching to sustainable products reduces waste, saves money over time, and lowers your environmental footprint. Room-by-room guide: KITCHEN: Replace plastic cling wrap → beeswax wraps (reusable 1 year, ₹400–800) or silicone stretch lids; plastic bags → reusable cloth/jute bags; plastic bottles → stainless steel/glass water bottles (₹300–1,200, lasts 10+ years); plastic straws → bamboo/metal straws (₹50–200, reusable); sponge scrubbers → loofah or coconut fibre scrubbers; synthetic cleaning products → DIY vinegar+baking soda cleaners or natural-enzyme cleaners. BATHROOM: Plastic shampoo bottles → shampoo bars (last 80–90 washes, no packaging); plastic toothbrushes → bamboo toothbrushes (₹80–150, compostable handle); plastic razors → safety razors (₹500–2,000, replace only blade); cotton pads → reusable cotton rounds (₹300 for 16, machine washable); menstrual products → menstrual cups (₹500–1,500, lasts 10 years) or cloth pads. BEDROOM/CLOTHING: Fast fashion → buy second-hand, repair, choose organic cotton or Tencel fabrics; synthetic detergents → soap nuts (reetha) or eco-friendly liquid detergents. OFFICE: Disposable pens → refillable pens; printing → print double-sided, use recycled paper; sticky notes → reusable whiteboard. Indian brands leading the way: Bare Necessities, The Better Home, Bomboo India, Conserve India, Phool Co.",
+    "source": "Sustainable Brands India; Ellen MacArthur Foundation Circular Economy Report",
+    "tags": ["products", "sustainable", "plastic-free", "reusable", "bamboo", "india"]
+  },
+  {
+    "id": "eco_016",
+    "category": "carbon_footprint",
+    "title": "Carbon Footprint Calculation — Personal and Household Guide",
+    "content": "A carbon footprint measures total greenhouse gas (GHG) emissions caused by an individual, household, organisation, or product. It is expressed in CO₂ equivalent (CO₂e). Global average per capita: 4.8 tCO₂e/year. India average: 1.9 tCO₂e/year. Paris Agreement sustainable target: 2.5 tCO₂e/year by 2030. Major emission categories for a typical Indian household: (1) Electricity — 1 kWh from India's grid = 0.716 kgCO₂e (CEA emission factor 2023). A 300-unit/month household: ~2.1 tonnes/year. (2) LPG cooking — 1 cylinder (14.2 kg) = ~40 kgCO₂e; 6 cylinders/year = 240 kgCO₂e. (3) Transport — car: 150 gCO₂e/km; bike: 90 gCO₂e/km; autorickshaw CNG: 70 gCO₂e/km. (4) Diet — non-vegetarian diet: 2.5 tCO₂e/year vs. vegetarian: 1.0 tCO₂e/year. (5) Flights — economy class, Mumbai–Delhi (1,150 km): 150 kgCO₂e/person. Online calculators: Carbon Footprint Ltd (carbonfootprint.com), WWF Footprint Calculator (footprint.wwf.org.uk), TERI Carbon Calculator. Offsetting options: plant trees (1 mature tree absorbs ~21 kgCO₂/year), donate to Gold Standard certified projects, invest in renewable energy certificates.",
+    "source": "CEA Emission Factor Report 2023; IPCC GHG Protocol; WRI India",
+    "tags": ["carbon-footprint", "calculation", "emissions", "india", "offset"]
+  },
+  {
+    "id": "eco_017",
+    "category": "biodiversity",
+    "title": "Urban Biodiversity and Native Plant Gardening",
+    "content": "Urban green spaces support biodiversity and provide ecosystem services including air purification, urban cooling, stormwater management, and mental health benefits. India has 91,000 animal species and 45,500 plant species, many under threat from habitat loss. How urban residents can support biodiversity: (1) Plant native species — native plants have co-evolved with local insects, birds, and soil microbes; require less water and no pesticides once established. Native trees for Indian cities: Neem (Azadirachta indica), Peepal (Ficus religiosa), Gulmohar (Delonix regia), Arjuna (Terminalia arjuna). (2) Create pollinator gardens — plant native flowering species to support bees, butterflies, and other pollinators; avoid pesticides. Beneficial plants: Marigold, Tulsi, Lantana (invasive but pollinator-friendly), Jasmine. (3) Bird-friendly design — install bird baths and feeders; avoid glass-fronted buildings; plant fruit-bearing trees. (4) Butterfly gardens — grow host plants for caterpillars: curry leaf (Murraya koenigii) for lime butterfly; Cassia species for emigrant butterflies. (5) Vermicomposting and organic gardening improve soil biodiversity — earthworms, mycorrhizal fungi, and beneficial bacteria. (6) Avoid chemical pesticides — use neem oil, soap spray, or companion planting instead. (7) Install bee hotels and bird nest boxes.",
+    "source": "WWF India Living Planet Report; BNHS Citizen Science; MoEFCC Biodiversity Strategy",
+    "tags": ["biodiversity", "native-plants", "garden", "urban", "pollinators", "india"]
+  },
+  {
+    "id": "eco_018",
+    "category": "air_quality",
+    "title": "Indoor and Outdoor Air Quality Improvement",
+    "content": "Air pollution causes 7 million premature deaths globally per year; India accounts for ~1.7 million of these. PM2.5 (fine particulate matter) and PM10 are the most harmful pollutants, along with NO₂, SO₂, O₃, and volatile organic compounds (VOCs). Outdoor air quality actions: (1) Monitor air quality via apps: SAFAR-India (safar.tropmet.res.in), IQAir, AQI India. Check AQI before outdoor exercise. (2) Wear N95/N99 masks on high-pollution days (AQI > 150). (3) Avoid burning crop stubble, garbage, or leaves — a primary source of particulate pollution in India. (4) Use cleaner fuels — PNG/LPG instead of firewood; electric instead of diesel generators. (5) Plant dust-trapping trees along roads: Ashoka (Saraca asoca), Jamun (Syzygium cumini), Mahua (Madhuca longifolia). Indoor air quality: (1) Ventilate well — open windows during low-pollution hours (morning in winter, evening in summer). (2) Air-purifying plants: Peace Lily (removes formaldehyde, benzene), Spider Plant (CO, xylene), Areca Palm (increases humidity). (3) Use HEPA air purifiers in highly polluted cities. (4) Avoid synthetic air fresheners and scented candles — they emit VOCs. (5) Use natural paints (low-VOC) and eco-friendly furniture (no formaldehyde finishes). (6) Ensure cooking exhaust vents adequately — LPG combustion products include NO₂ and CO.",
+    "source": "WHO Air Quality Guidelines 2021; CPCB India NAQI; SAFAR-India",
+    "tags": ["air-quality", "pollution", "indoor", "pm2.5", "india", "health"]
+  },
+  {
+    "id": "eco_019",
+    "category": "sustainable_living",
+    "title": "Minimalism and Conscious Consumerism",
+    "content": "Overconsumption is a core driver of environmental degradation. The global economy currently uses 1.7 Earths' worth of resources per year. Minimalism is a lifestyle philosophy that prioritises experiences over possessions and quality over quantity. Environmental benefits of minimalism: (1) Fewer purchases = less manufacturing emissions, packaging waste, transportation pollution. (2) Longer product lifetimes through better care and repair reduce raw material demand. (3) Less clutter = smaller living space needs = lower energy for heating/cooling. Practical minimalism tips: (1) The 30-day rule — wait 30 days before buying any non-essential item. (2) One-in-one-out policy — donate/sell an item before buying a replacement. (3) Capsule wardrobe — 30–37 high-quality, versatile items that mix-and-match; reduces fast fashion consumption. (4) Library economics — borrow books, tools, and rarely-used items from libraries or peer networks; rent instead of buying. (5) Sharing economy — platforms like OLX, Facebook Marketplace, Craigslist for second-hand goods. (6) Repair cafés — community spaces where volunteers help repair broken items; over 2,500 worldwide. (7) Refurbishment services — many electronics brands offer certified refurbished products at 30–50% discount. India's rich tradition of jugaad (frugal innovation) and reuse culture (dabbawalas, milk in reusable bottles) embodies minimalist principles.",
+    "source": "Ellen MacArthur Foundation; Global Footprint Network; Greenpeace India",
+    "tags": ["minimalism", "consumerism", "repair", "second-hand", "circular-economy"]
+  },
+  {
+    "id": "eco_020",
+    "category": "climate_change",
+    "title": "Understanding Climate Change — Science, Impacts, and Solutions",
+    "content": "Climate change is the defining challenge of our era. Key facts: Global average temperature has risen 1.2°C above pre-industrial levels. The last decade (2011–2020) was the hottest on record. At current emission trajectories, we are headed for 2.7–3.0°C warming by 2100. The IPCC AR6 Report (2021) confirms human activities are 'unequivocally' the cause. Main greenhouse gases and sources: CO₂ (76%, fossil fuels, deforestation), CH₄/methane (16%, livestock, rice paddies, gas leaks), N₂O (6%, fertilisers), F-gases (2%, refrigerants). Impacts of climate change on India: More intense monsoons and floods (Assam, Kerala, Bihar); prolonged droughts (Marathwada, Bundelkhand); sea level rise threatening coastal cities (Mumbai, Chennai, Kolkata); glacier retreat in Himalayas threatening river flows; heat waves increasing in frequency, duration, and intensity. India's climate commitments (NDC 2022): 50% non-fossil electricity capacity by 2030; 45% reduction in GDP emission intensity by 2030 (vs. 2005); net-zero by 2070. Individual solutions: The three most impactful personal actions are (1) having one fewer child (58 tCO₂e/year), (2) going car-free (2.4 tCO₂e/year), and (3) avoiding one transatlantic flight (1.6 tCO₂e return). Collective/systemic change is also essential: advocacy, voting, and supporting climate-positive businesses.",
+    "source": "IPCC AR6 Synthesis Report 2023; India NDC 2022; NASA Climate Evidence",
+    "tags": ["climate-change", "global-warming", "ipcc", "india", "ndc", "carbon"]
+  }
+]

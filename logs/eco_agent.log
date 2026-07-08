@@ -1,0 +1,179 @@
+00:16:01 | INFO     | eco_agent:<module> — Logger OK
+00:16:19 | WARNING  | eco_agent:<module> — No IBM SDK found — will use local sentence-transformers embeddings.
+00:16:45 | WARNING  | eco_agent:<module> — ibm-watsonx-ai not installed — LLM will use stub responses.
+00:16:45 | WARNING  | eco_agent:get_embedding_model — IBM embeddings unavailable (No IBM SDK found. Install ibm-watsonx-ai or ibm_watson_machine_learning.). Falling back to local model.
+00:17:12 | INFO     | eco_agent:__init__ — Local embeddings initialised (backend=sentence_transformers): sentence-transformers/all-MiniLM-L6-v2
+00:17:14 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 0 documents.
+00:17:26 | WARNING  | eco_agent:<module> — No IBM SDK found — will use local sentence-transformers embeddings.
+00:17:30 | WARNING  | eco_agent:<module> — ibm-watsonx-ai not installed — LLM will use stub responses.
+00:17:30 | INFO     | eco_agent:main — === Eco Lifestyle Agent — Document Ingestion ===
+00:17:30 | WARNING  | eco_agent:get_embedding_model — IBM embeddings unavailable (No IBM SDK found. Install ibm-watsonx-ai or ibm_watson_machine_learning.). Falling back to local model.
+00:17:38 | INFO     | eco_agent:__init__ — Local embeddings initialised (backend=sentence_transformers): sentence-transformers/all-MiniLM-L6-v2
+00:17:38 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 0 documents.
+00:17:38 | INFO     | eco_agent:ingest_json_dataset — Ingesting JSON dataset: A:\Self\edunet\echo lifestyle\eco_lifestyle_agent\datasets\eco_knowledge_base.json
+00:17:38 | INFO     | eco_agent:add_documents — Embedding and upserting 20 document(s)…
+00:17:38 | INFO     | eco_agent:add_documents — Upsert complete. Collection now has 20 documents.
+00:17:38 | INFO     | eco_agent:ingest_json_dataset — Ingested 20 records → 20 chunks from JSON.
+00:17:38 | INFO     | eco_agent:main — Ingestion complete. Total chunks added: 20. Vector store size: 20 documents.
+00:18:14 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+00:18:14 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+00:18:16 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 20 documents.
+00:18:18 | INFO     | eco_agent:__init__ — Granite LLM initialised: ibm/granite-guardian-3-8b
+00:18:18 | INFO     | eco_agent:get_llm — Using IBM Granite LLM
+00:18:18 | INFO     | eco_agent:get_pipeline — RAG pipeline initialised
+00:18:18 | INFO     | eco_agent:chat — Chat request: 'How can I reduce plastic waste at home?'
+00:18:18 | INFO     | eco_agent:query — RAG query: 'How can I reduce plastic waste at home?'
+00:18:20 | ERROR    | eco_agent:chat — Pipeline error: Collection expecting embedding with dimension of 384, got 768
+00:25:49 | INFO     | eco_agent:main — === Eco Lifestyle Agent — Document Ingestion ===
+00:25:51 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+00:25:51 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+00:25:51 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 0 documents.
+00:25:51 | INFO     | eco_agent:ingest_json_dataset — Ingesting JSON dataset: A:\Self\edunet\echo lifestyle\eco_lifestyle_agent\datasets\eco_knowledge_base.json
+00:25:51 | INFO     | eco_agent:add_documents — Embedding and upserting 20 document(s)…
+00:25:53 | INFO     | eco_agent:add_documents — Upsert complete. Collection now has 20 documents.
+00:25:53 | INFO     | eco_agent:ingest_json_dataset — Ingested 20 records → 20 chunks from JSON.
+00:25:53 | INFO     | eco_agent:main — Ingestion complete. Total chunks added: 20. Vector store size: 20 documents.
+00:26:39 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+00:26:39 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+00:26:39 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 20 documents.
+00:26:42 | INFO     | eco_agent:__init__ — Granite LLM initialised: ibm/granite-guardian-3-8b
+00:26:42 | INFO     | eco_agent:get_llm — Using IBM Granite LLM
+00:26:42 | INFO     | eco_agent:get_pipeline — RAG pipeline initialised
+00:26:42 | INFO     | eco_agent:chat — Chat request: 'How can I reduce plastic waste at home?'
+00:26:42 | INFO     | eco_agent:query — RAG query: 'How can I reduce plastic waste at home?'
+00:28:20 | INFO     | eco_agent:chat — Chat request: 'What is PM Surya Ghar scheme?'
+00:28:20 | INFO     | eco_agent:query — RAG query: 'What is PM Surya Ghar scheme?'
+00:32:20 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+00:32:20 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+00:32:20 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 20 documents.
+00:32:22 | INFO     | eco_agent:__init__ — Granite LLM initialised: ibm/granite-guardian-3-8b
+00:32:22 | INFO     | eco_agent:get_llm — Using IBM Granite LLM
+00:32:22 | INFO     | eco_agent:get_pipeline — RAG pipeline initialised
+00:32:22 | INFO     | eco_agent:chat — Chat request: 'How can I reduce plastic waste at home?'
+00:32:22 | INFO     | eco_agent:query — RAG query: 'How can I reduce plastic waste at home?'
+00:37:34 | WARNING  | eco_agent:<module> — No IBM SDK found — will use local sentence-transformers embeddings.
+00:37:38 | WARNING  | eco_agent:get_embedding_model — IBM embeddings unavailable (No IBM SDK found. Install ibm-watsonx-ai or ibm_watson_machine_learning.). Falling back to local model.
+00:37:46 | INFO     | eco_agent:__init__ — Local embeddings initialised (backend=sentence_transformers): sentence-transformers/all-MiniLM-L6-v2
+00:37:46 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 20 documents.
+00:37:46 | WARNING  | eco_agent:get_llm — IBM LLM unavailable (The specified url is not valid. To authenticate with your Cloud Pak for Data installed software, add `"instance_id": "openshift"` to your credentials. To authenticate with your Cloud Pak for Data as a Service account, see https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-authentication.html .). Using stub LLM.
+00:37:46 | INFO     | eco_agent:get_pipeline — RAG pipeline initialised
+00:38:17 | WARNING  | eco_agent:<module> — No IBM SDK found — will use local sentence-transformers embeddings.
+00:38:21 | WARNING  | eco_agent:get_llm — IBM LLM unavailable (The specified url is not valid. To authenticate with your Cloud Pak for Data installed software, add `"instance_id": "openshift"` to your credentials. To authenticate with your Cloud Pak for Data as a Service account, see https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-authentication.html .). Using stub LLM.
+00:39:58 | INFO     | eco_agent:__init__ — Granite LLM initialised (sdk=new): ibm/granite-guardian-3-8b
+00:39:58 | INFO     | eco_agent:get_llm — Using IBM Granite LLM
+00:40:46 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+00:40:46 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+00:40:46 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 20 documents.
+00:40:49 | WARNING  | eco_agent:get_llm — IBM LLM unavailable (Model 'ibm/granite-3-8b-instruct' is not supported for this environment. Supported models: ['cross-encoder/ms-marco-minilm-l-12-v2', 'ibm/granite-3-1-8b-base', 'ibm/granite-8b-code-instruct', 'ibm/granite-guardian-3-8b', 'ibm/granite-ttm-1024-96-r2', 'ibm/granite-ttm-1536-96-r2', 'ibm/granite-ttm-512-96-r2', 'ibm/slate-125m-english-rtrvr-v2', 'ibm/slate-30m-english-rtrvr-v2', 'intfloat/multilingual-e5-large', 'meta-llama/llama-3-1-70b-gptq', 'meta-llama/llama-3-1-8b', 'meta-llama/llama-3-3-70b-instruct']). Using stub LLM.
+00:40:49 | INFO     | eco_agent:get_pipeline — RAG pipeline initialised
+00:40:49 | INFO     | eco_agent:query — RAG query: 'How can I reduce plastic waste at home?'
+00:41:15 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+00:41:15 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+00:41:16 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 20 documents.
+00:41:18 | INFO     | eco_agent:__init__ — Granite LLM initialised (sdk=new): ibm/granite-3-1-8b-base
+00:41:18 | INFO     | eco_agent:get_llm — Using IBM Granite LLM
+00:41:18 | INFO     | eco_agent:get_pipeline — RAG pipeline initialised
+00:41:18 | INFO     | eco_agent:query — RAG query: 'How can I reduce plastic waste at home?'
+00:41:19 | ERROR    | eco_agent:generate — Granite generate error: Failure during generate. (POST https://au-syd.ml.cloud.ibm.com/ml/v1/text/generation?version=2026-06-10)
+Status code: 400, body: {"errors":[{"code":"model_no_support_for_function","message":"Model 'ibm/granite-3-1-8b-base' does not support function 'function_text_generation'","more_info":"https://cloud.ibm.com/apidocs/watsonx-ai#text-generation"}],"trace":"bcc9970856c3953601d5a812ab02863d","status_code":400}
+00:42:18 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+00:42:18 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+00:42:18 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 20 documents.
+00:42:19 | INFO     | eco_agent:__init__ — Granite LLM initialised (sdk=new): meta-llama/llama-3-3-70b-instruct
+00:42:19 | INFO     | eco_agent:get_llm — Using IBM Granite LLM
+00:42:19 | INFO     | eco_agent:get_pipeline — RAG pipeline initialised
+00:42:19 | INFO     | eco_agent:query — RAG query: 'How can I reduce plastic waste at home?'
+00:45:57 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+00:45:57 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+00:45:58 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 20 documents.
+00:46:00 | INFO     | eco_agent:__init__ — Granite LLM initialised (sdk=new): meta-llama/llama-3-3-70b-instruct
+00:46:00 | INFO     | eco_agent:get_llm — Using IBM Granite LLM
+00:46:00 | INFO     | eco_agent:get_pipeline — RAG pipeline initialised
+00:46:00 | INFO     | eco_agent:chat — Chat request: 'What is PM Surya Ghar scheme?'
+00:46:00 | INFO     | eco_agent:query — RAG query: 'What is PM Surya Ghar scheme?'
+00:46:26 | INFO     | eco_agent:chat — Chat request: 'How do I calculate my carbon footprint?'
+00:46:26 | INFO     | eco_agent:query — RAG query: 'How do I calculate my carbon footprint?'
+00:46:50 | INFO     | eco_agent:chat — Chat request: 'Best ways to save water in my apartment?'
+00:46:50 | INFO     | eco_agent:query — RAG query: 'Best ways to save water in my apartment?'
+00:47:09 | INFO     | eco_agent:chat — Chat request: 'What is PM Surya Ghar scheme?'
+00:47:09 | INFO     | eco_agent:query — RAG query: 'What is PM Surya Ghar scheme?'
+12:29:45 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+12:29:45 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+12:29:47 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 20 documents.
+12:29:50 | INFO     | eco_agent:__init__ — Granite LLM initialised (sdk=new): meta-llama/llama-3-3-70b-instruct
+12:29:50 | INFO     | eco_agent:get_llm — Using IBM Granite LLM
+12:29:50 | INFO     | eco_agent:get_pipeline — RAG pipeline initialised
+12:29:50 | INFO     | eco_agent:chat — Chat request: 'How can I reduce plastic waste at home?'
+12:29:50 | INFO     | eco_agent:query — RAG query: 'How can I reduce plastic waste at home?'
+12:54:00 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+12:54:00 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+12:54:00 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 20 documents.
+12:54:04 | INFO     | eco_agent:__init__ — Granite LLM initialised (sdk=new): meta-llama/llama-3-3-70b-instruct
+12:54:04 | INFO     | eco_agent:get_llm — Using IBM Granite LLM
+12:54:04 | INFO     | eco_agent:get_pipeline — RAG pipeline initialised
+12:54:04 | INFO     | eco_agent:chat — Chat request: 'Which EV is best for daily commuting in India?'
+12:54:04 | INFO     | eco_agent:query — RAG query: 'Which EV is best for daily commuting in India?'
+14:14:33 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+14:14:33 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+14:14:34 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 20 documents.
+14:14:39 | INFO     | eco_agent:__init__ — Granite LLM initialised (sdk=new): meta-llama/llama-3-3-70b-instruct
+14:14:39 | INFO     | eco_agent:get_llm — Using IBM Granite LLM
+14:14:39 | INFO     | eco_agent:get_pipeline — RAG pipeline initialised
+14:14:39 | INFO     | eco_agent:chat — Chat request: 'Which EV is best for daily commuting in India?'
+14:14:39 | INFO     | eco_agent:query — RAG query: 'Which EV is best for daily commuting in India?'
+13:06:35 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+13:06:35 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+13:06:37 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 20 documents.
+13:06:40 | INFO     | eco_agent:__init__ — Granite LLM initialised (sdk=new): meta-llama/llama-3-3-70b-instruct
+13:06:40 | INFO     | eco_agent:get_llm — Using IBM Granite LLM
+13:06:40 | INFO     | eco_agent:get_pipeline — RAG pipeline initialised
+13:06:40 | INFO     | eco_agent:chat — Chat request: 'How to start composting at home?'
+13:06:40 | INFO     | eco_agent:query — RAG query: 'How to start composting at home?'
+15:27:52 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+15:27:52 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+15:27:53 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 20 documents.
+15:27:56 | INFO     | eco_agent:__init__ — Granite LLM initialised (sdk=new): meta-llama/llama-3-3-70b-instruct
+15:27:56 | INFO     | eco_agent:get_llm — Using IBM Granite LLM
+15:27:56 | INFO     | eco_agent:get_pipeline — RAG pipeline initialised
+15:27:56 | INFO     | eco_agent:query — RAG query: 'What is PM Surya Ghar scheme?'
+15:28:37 | INFO     | eco_agent:query — RAG query: 'How can I reduce plastic waste at home?'
+15:31:21 | INFO     | eco_agent:query — RAG query: 'Which EV is best for daily commuting in India?'
+15:31:39 | INFO     | eco_agent:query — RAG query: 'How to start composting at home?'
+16:28:23 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+16:28:23 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+16:28:23 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 20 documents.
+16:28:27 | INFO     | eco_agent:__init__ — Granite LLM initialised (sdk=new): meta-llama/llama-3-3-70b-instruct
+16:28:27 | INFO     | eco_agent:get_llm — Using IBM Granite LLM
+16:28:27 | INFO     | eco_agent:get_pipeline — RAG pipeline initialised
+16:28:27 | INFO     | eco_agent:chat — Chat request: 'How can I reduce plastic waste at home?'
+16:28:27 | INFO     | eco_agent:query — RAG query: 'How can I reduce plastic waste at home?'
+16:28:41 | INFO     | eco_agent:chat — Chat request: 'How do I calculate my carbon footprint?'
+16:28:41 | INFO     | eco_agent:query — RAG query: 'How do I calculate my carbon footprint?'
+16:29:03 | INFO     | eco_agent:chat — Chat request: 'How to start composting at home?'
+16:29:03 | INFO     | eco_agent:query — RAG query: 'How to start composting at home?'
+16:38:19 | INFO     | eco_agent:chat — Chat request: 'tell me something else'
+16:38:19 | INFO     | eco_agent:query — RAG query: 'tell me something else'
+16:38:26 | INFO     | eco_agent:chat — Chat request: 'tell me something else'
+16:38:26 | INFO     | eco_agent:query — RAG query: 'tell me something else'
+16:38:33 | INFO     | eco_agent:chat — Chat request: 'tell me something else'
+16:38:33 | INFO     | eco_agent:query — RAG query: 'tell me something else'
+20:06:07 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+20:06:07 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+20:06:08 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 20 documents.
+20:06:12 | INFO     | eco_agent:__init__ — Granite LLM initialised (sdk=new): meta-llama/llama-3-3-70b-instruct
+20:06:12 | INFO     | eco_agent:get_llm — Using IBM Granite LLM
+20:06:12 | INFO     | eco_agent:get_pipeline — RAG pipeline initialised
+20:06:12 | INFO     | eco_agent:chat — Chat request: 'How to start composting at home?'
+20:06:12 | INFO     | eco_agent:query — RAG query: 'How to start composting at home?'
+20:14:21 | INFO     | eco_agent:chat — Chat request: 'Which EV is best for daily commuting in India?'
+20:14:21 | INFO     | eco_agent:query — RAG query: 'Which EV is best for daily commuting in India?'
+20:18:43 | INFO     | eco_agent:chat — Chat request: 'hii'
+20:18:43 | INFO     | eco_agent:query — RAG query: 'hii'
+20:19:02 | INFO     | eco_agent:chat — Chat request: 'hii'
+20:19:02 | INFO     | eco_agent:query — RAG query: 'hii'
+22:13:29 | INFO     | eco_agent:chat — Chat request: 'How do I calculate my carbon footprint?'
+22:13:29 | INFO     | eco_agent:query — RAG query: 'How do I calculate my carbon footprint?'
+22:13:50 | INFO     | eco_agent:chat — Chat request: 'How do I calculate my carbon footprint?'
+22:13:50 | INFO     | eco_agent:query — RAG query: 'How do I calculate my carbon footprint?'
+22:14:18 | INFO     | eco_agent:chat — Chat request: 'How can I reduce plastic waste at home?'
+22:14:18 | INFO     | eco_agent:query — RAG query: 'How can I reduce plastic waste at home?'

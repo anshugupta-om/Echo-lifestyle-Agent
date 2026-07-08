@@ -1,0 +1,19 @@
+"""prompts package — agent instructions and prompt templates."""
+
+from .agent_instructions import (  # noqa: F401
+    AGENT_NAME,
+    AGENT_TAGLINE,
+    SYSTEM_PROMPT_TEMPLATE,
+    FALLBACK_PROMPT_TEMPLATE,
+    DAILY_ECO_TIPS,
+    CARBON_EMISSION_FACTORS,
+    ECO_SCORE_THRESHOLDS,
+    SAFETY_GUIDELINES,
+    CITATION_FORMAT,
+    CITATION_PREFIX,
+    RESPONSE_TONE,
+    RESPONSE_LENGTH,
+    USE_MARKDOWN,
+    SUPPORTED_LANGUAGES,
+    LOCALE_FOCUS,
+)

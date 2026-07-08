@@ -1,0 +1,63 @@
+2026-07-03T23:22:42.108831+0530 | INFO | rag.embeddings:__init__:63 — IBM Slate embeddings initialised: ibm/slate-125m-english-rtrvr
+2026-07-03T23:22:42.110342+0530 | INFO | rag.embeddings:get_embedding_model:121 — Using IBM Slate embedding model
+2026-07-03T23:22:43.628695+0530 | INFO | rag.vector_store:__init__:46 — ChromaDB collection 'eco_knowledge_base' loaded — 0 documents.
+2026-07-03T23:22:46.794122+0530 | WARNING | rag.llm:get_llm:129 — IBM LLM unavailable (Model 'ibm/granite-13b-chat-v2' is not supported for this environment. Supported models: ['cross-encoder/ms-marco-minilm-l-12-v2', 'ibm/granite-3-1-8b-base', 'ibm/granite-8b-code-instruct', 'ibm/granite-guardian-3-8b', 'ibm/granite-ttm-1024-96-r2', 'ibm/granite-ttm-1536-96-r2', 'ibm/granite-ttm-512-96-r2', 'ibm/slate-125m-english-rtrvr-v2', 'ibm/slate-30m-english-rtrvr-v2', 'intfloat/multilingual-e5-large', 'meta-llama/llama-3-1-70b-gptq', 'meta-llama/llama-3-1-8b', 'meta-llama/llama-3-3-70b-instruct']). Using stub LLM.
+2026-07-03T23:22:46.797643+0530 | INFO | rag.pipeline:get_pipeline:216 — RAG pipeline initialised
+2026-07-03T23:22:46.804984+0530 | INFO | backend.main:chat:121 — Chat request: 'How can I reduce plastic waste at home?'
+2026-07-03T23:22:46.807167+0530 | INFO | rag.pipeline:query:84 — RAG query: 'How can I reduce plastic waste at home?'
+2026-07-03T23:22:47.253096+0530 | ERROR | backend.main:chat:131 — Pipeline error: Failure during generate. (POST https://au-syd.ml.cloud.ibm.com/ml/v1/text/embeddings?version=2026-06-10)
+Status code: 403, body: {"errors":[{"code":"invalid_instance_status_error","message":"WML instance 9b62482b-fa62-4a98-aa5f-c893d8d1c98d status is invalid, current status: Inactive, expected status: active","more_info":"https://cloud.ibm.com/apidocs/watsonx-ai#text-embeddings"}],"trace":"5c647b601b1fb1a0979e7b37bed712f7","status_code":403}
+2026-07-03T23:26:19.146727+0530 | INFO | rag.embeddings:__init__:63 — IBM Slate embeddings initialised: ibm/slate-125m-english-rtrvr
+2026-07-03T23:26:19.148224+0530 | INFO | rag.embeddings:get_embedding_model:121 — Using IBM Slate embedding model
+2026-07-03T23:26:19.352216+0530 | INFO | rag.vector_store:__init__:46 — ChromaDB collection 'eco_knowledge_base' loaded — 0 documents.
+2026-07-03T23:26:21.847867+0530 | INFO | rag.llm:__init__:62 — Granite LLM initialised: ibm/granite-guardian-3-8b
+2026-07-03T23:26:21.847867+0530 | INFO | rag.llm:get_llm:126 — Using IBM Granite LLM
+2026-07-03T23:26:21.847867+0530 | INFO | rag.pipeline:get_pipeline:216 — RAG pipeline initialised
+2026-07-03T23:26:21.850399+0530 | INFO | backend.main:chat:121 — Chat request: 'How can I reduce plastic waste at home?'
+2026-07-03T23:26:21.850399+0530 | INFO | rag.pipeline:query:84 — RAG query: 'How can I reduce plastic waste at home?'
+2026-07-03T23:26:22.209806+0530 | ERROR | backend.main:chat:131 — Pipeline error: Failure during generate. (POST https://au-syd.ml.cloud.ibm.com/ml/v1/text/embeddings?version=2026-06-10)
+Status code: 403, body: {"errors":[{"code":"invalid_instance_status_error","message":"WML instance 9b62482b-fa62-4a98-aa5f-c893d8d1c98d status is invalid, current status: Inactive, expected status: active","more_info":"https://cloud.ibm.com/apidocs/watsonx-ai#text-embeddings"}],"trace":"494d023d201de922c242c85e6b82be34","status_code":403}
+2026-07-03T23:34:33.677903+0530 | INFO | rag.embeddings:__init__:63 — IBM Slate embeddings initialised: ibm/slate-125m-english-rtrvr
+2026-07-03T23:34:33.679493+0530 | INFO | rag.embeddings:get_embedding_model:121 — Using IBM Slate embedding model
+2026-07-03T23:34:33.892981+0530 | INFO | rag.vector_store:__init__:46 — ChromaDB collection 'eco_knowledge_base' loaded — 0 documents.
+2026-07-03T23:34:36.308757+0530 | INFO | rag.llm:__init__:62 — Granite LLM initialised: ibm/granite-guardian-3-8b
+2026-07-03T23:34:36.308757+0530 | INFO | rag.llm:get_llm:126 — Using IBM Granite LLM
+2026-07-03T23:34:36.309742+0530 | INFO | rag.pipeline:get_pipeline:216 — RAG pipeline initialised
+2026-07-03T23:34:36.311742+0530 | INFO | backend.main:chat:121 — Chat request: 'What is PM Surya Ghar scheme?'
+2026-07-03T23:34:36.311742+0530 | INFO | rag.pipeline:query:84 — RAG query: 'What is PM Surya Ghar scheme?'
+2026-07-03T23:34:36.818806+0530 | ERROR | backend.main:chat:131 — Pipeline error: Failure during generate. (POST https://au-syd.ml.cloud.ibm.com/ml/v1/text/embeddings?version=2026-06-10)
+Status code: 404, body: {"errors":[{"code":"model_not_supported","message":"Model 'ibm/slate-125m-english-rtrvr' was not found. This model may be unsupported, deprecated, or removed.","more_info":"https://cloud.ibm.com/apidocs/watsonx-ai#text-embeddings"}],"trace":"b3cfba6718d376a65cdae8c4ec77087a","status_code":404}
+2026-07-03T23:37:04.085919+0530 | INFO | rag.embeddings:__init__:63 — IBM Slate embeddings initialised: ibm/slate-30m-english-rtrvr
+2026-07-03T23:37:04.086429+0530 | INFO | rag.embeddings:get_embedding_model:121 — Using IBM Slate embedding model
+2026-07-03T23:37:04.291012+0530 | INFO | rag.vector_store:__init__:46 — ChromaDB collection 'eco_knowledge_base' loaded — 0 documents.
+2026-07-03T23:37:07.224140+0530 | INFO | rag.llm:__init__:62 — Granite LLM initialised: ibm/granite-guardian-3-8b
+2026-07-03T23:37:07.225141+0530 | INFO | rag.llm:get_llm:126 — Using IBM Granite LLM
+2026-07-03T23:37:07.226153+0530 | INFO | rag.pipeline:get_pipeline:216 — RAG pipeline initialised
+2026-07-03T23:37:07.227141+0530 | INFO | backend.main:chat:121 — Chat request: 'What is PM Surya Ghar scheme?'
+2026-07-03T23:37:07.229149+0530 | INFO | rag.pipeline:query:84 — RAG query: 'What is PM Surya Ghar scheme?'
+2026-07-03T23:37:07.623118+0530 | ERROR | backend.main:chat:131 — Pipeline error: Failure during generate. (POST https://au-syd.ml.cloud.ibm.com/ml/v1/text/embeddings?version=2026-06-10)
+Status code: 404, body: {"errors":[{"code":"model_not_supported","message":"Model 'ibm/slate-30m-english-rtrvr' was not found. This model may be unsupported, deprecated, or removed.","more_info":"https://cloud.ibm.com/apidocs/watsonx-ai#text-embeddings"}],"trace":"6bbce85071be30a99e7af30dd31269dd","status_code":404}
+2026-07-03T23:38:50.000085+0530 | INFO | rag.embeddings:__init__:63 — IBM Slate embeddings initialised: ibm/slate-125m-english-rtrvr-v2
+2026-07-03T23:38:50.001087+0530 | INFO | rag.embeddings:get_embedding_model:121 — Using IBM Slate embedding model
+2026-07-03T23:38:50.189122+0530 | INFO | rag.vector_store:__init__:46 — ChromaDB collection 'eco_knowledge_base' loaded — 0 documents.
+2026-07-03T23:38:52.436341+0530 | INFO | rag.llm:__init__:62 — Granite LLM initialised: ibm/granite-guardian-3-8b
+2026-07-03T23:38:52.437337+0530 | INFO | rag.llm:get_llm:126 — Using IBM Granite LLM
+2026-07-03T23:38:52.437337+0530 | INFO | rag.pipeline:get_pipeline:216 — RAG pipeline initialised
+2026-07-03T23:38:52.440342+0530 | INFO | backend.main:chat:121 — Chat request: 'What is PM Surya Ghar scheme?'
+2026-07-03T23:38:52.446414+0530 | INFO | rag.pipeline:query:84 — RAG query: 'What is PM Surya Ghar scheme?'
+2026-07-03T23:46:26.451072+0530 | INFO | rag.embeddings:__init__:63 — IBM Slate embeddings initialised: ibm/slate-125m-english-rtrvr-v2
+2026-07-03T23:46:26.451781+0530 | INFO | rag.embeddings:get_embedding_model:121 — Using IBM Slate embedding model
+2026-07-03T23:46:26.643817+0530 | INFO | rag.vector_store:__init__:46 — ChromaDB collection 'eco_knowledge_base' loaded — 0 documents.
+2026-07-03T23:46:28.887423+0530 | INFO | rag.llm:__init__:62 — Granite LLM initialised: ibm/granite-guardian-3-8b
+2026-07-03T23:46:28.888933+0530 | INFO | rag.llm:get_llm:126 — Using IBM Granite LLM
+2026-07-03T23:46:28.888933+0530 | INFO | rag.pipeline:get_pipeline:216 — RAG pipeline initialised
+2026-07-03T23:46:28.889946+0530 | INFO | backend.main:chat:121 — Chat request: 'How can I reduce plastic waste at home?'
+2026-07-03T23:46:28.889946+0530 | INFO | rag.pipeline:query:84 — RAG query: 'How can I reduce plastic waste at home?'
+2026-07-03T23:58:55.636422+0530 | INFO | rag.embeddings:__init__:63 — IBM Slate embeddings initialised: ibm/slate-125m-english-rtrvr-v2
+2026-07-03T23:58:55.636422+0530 | INFO | rag.embeddings:get_embedding_model:121 — Using IBM Slate embedding model
+2026-07-03T23:58:55.826065+0530 | INFO | rag.vector_store:__init__:46 — ChromaDB collection 'eco_knowledge_base' loaded — 0 documents.
+2026-07-03T23:58:58.938544+0530 | INFO | rag.llm:__init__:62 — Granite LLM initialised: ibm/granite-guardian-3-8b
+2026-07-03T23:58:58.938544+0530 | INFO | rag.llm:get_llm:126 — Using IBM Granite LLM
+2026-07-03T23:58:58.938544+0530 | INFO | rag.pipeline:get_pipeline:216 — RAG pipeline initialised
+2026-07-03T23:58:58.939558+0530 | INFO | backend.main:chat:121 — Chat request: 'How do I calculate my carbon footprint?'
+2026-07-03T23:58:58.939558+0530 | INFO | rag.pipeline:query:84 — RAG query: 'How do I calculate my carbon footprint?'

@@ -1,0 +1,12 @@
+2026-07-04T00:03:34.190241+0530 | INFO | rag.embeddings:__init__:63 — IBM Slate embeddings initialised: ibm/slate-125m-english-rtrvr-v2
+2026-07-04T00:03:34.193564+0530 | INFO | rag.embeddings:get_embedding_model:121 — Using IBM Slate embedding model
+2026-07-04T00:03:34.394594+0530 | INFO | rag.vector_store:__init__:46 — ChromaDB collection 'eco_knowledge_base' loaded — 0 documents.
+2026-07-04T00:03:37.298575+0530 | INFO | rag.llm:__init__:62 — Granite LLM initialised: ibm/granite-guardian-3-8b
+2026-07-04T00:03:37.298575+0530 | INFO | rag.llm:get_llm:126 — Using IBM Granite LLM
+2026-07-04T00:03:37.298575+0530 | INFO | rag.pipeline:get_pipeline:216 — RAG pipeline initialised
+2026-07-04T00:03:37.303100+0530 | INFO | backend.main:chat:121 — Chat request: 'How do I calculate my carbon footprint?'
+2026-07-04T00:03:37.304115+0530 | INFO | rag.pipeline:query:84 — RAG query: 'How do I calculate my carbon footprint?'
+2026-07-04T00:03:57.621870+0530 | INFO | backend.main:chat:121 — Chat request: 'How can I reduce plastic waste at home?'
+2026-07-04T00:03:57.626010+0530 | INFO | rag.pipeline:query:84 — RAG query: 'How can I reduce plastic waste at home?'
+2026-07-04T00:04:47.302997+0530 | INFO | backend.main:chat:121 — Chat request: 'How can I reduce plastic waste at home?'
+2026-07-04T00:04:47.306014+0530 | INFO | rag.pipeline:query:84 — RAG query: 'How can I reduce plastic waste at home?'
