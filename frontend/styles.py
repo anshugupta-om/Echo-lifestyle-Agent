@@ -33,50 +33,7 @@ html, body, [data-testid="stAppViewContainer"], .main {
     -webkit-font-smoothing: antialiased;
 }
 
-/* Force the sidebar toggle button to be visible no matter what Streamlit version */
-header, [data-testid="stHeader"] {
-    visibility: visible !important;
-    background: transparent !important;
-}
-header button, [data-testid="stHeader"] button, [data-testid*="collapsedControl"], [data-testid*="SidebarToggle"] {
-    visibility: visible !important;
-    display: inline-flex !important;
-    z-index: 999999 !important;
-    opacity: 1 !important;
-    color: var(--accent) !important;
-}
-header svg, [data-testid="stHeader"] svg, [data-testid*="collapsedControl"] svg {
-    stroke: var(--accent) !important;
-}
-
-/* Force the sidebar itself to remain open permanently and on-screen */
-.stSidebar, [data-testid="stSidebar"], section[data-testid="stSidebar"], div[data-testid="stSidebar"], [data-testid="stSidebarContent"] {
-    display: flex !important;
-    visibility: visible !important;
-    transform: translateX(0) !important;
-    margin-left: 0 !important;
-    left: 0 !important;
-    right: auto !important;
-    top: 0 !important;
-    bottom: 0 !important;
-    position: fixed !important;
-    width: 336px !important;
-    min-width: 336px !important;
-    max-width: 336px !important;
-    height: 100vh !important;
-    opacity: 1 !important;
-    z-index: 999999 !important;
-    background: var(--surface) !important;
-    border-right: 1px solid var(--border) !important;
-}
-
-[data-testid="stSidebarCollapsedControl"], [data-testid="stExpandSidebarButton"], [data-testid="stSidebarCollapseButton"] {
-    display: none !important;
-}
-
-[data-testid="stSidebarNav"] {
-    display: none !important;
-}
+/* No native sidebar overrides needed because we use st.columns */
 
 #MainMenu, footer { visibility: hidden; }
 
@@ -89,6 +46,9 @@ header svg, [data-testid="stHeader"] svg, [data-testid*="collapsedControl"] svg 
     background: var(--surface) !important;
     border-right: 1px solid var(--border) !important;
     box-shadow: 2px 0 12px rgba(0,0,0,0.04) !important;
+    min-width: 25vw !important;
+    max-width: 25vw !important;
+    width: 25vw !important;
 }
 [data-testid="baseButton-header"] {
     color: var(--text) !important;

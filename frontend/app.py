@@ -624,27 +624,26 @@ def page_upload() -> None:
 def main() -> None:
     init_session_state()
     st.markdown(inject_css(st.session_state.theme), unsafe_allow_html=True)
-    sidebar_col, content_col = st.columns([0.28, 0.72], gap="large")
-    with sidebar_col:
+    with st.sidebar:
         render_sidebar()
-    with content_col:
-        page = st.session_state.page
-        if page == "chat":
-            page_chat()
-        elif page == "dashboard":
-            page_dashboard()
-        elif page == "carbon":
-            page_carbon_calculator()
-        elif page == "score":
-            page_eco_score()
-        elif page == "schemes":
-            page_schemes()
-        elif page == "recycling":
-            page_recycling()
-        elif page == "products":
-            page_products()
-        elif page == "upload":
-            page_upload()
+    
+    page = st.session_state.page
+    if page == "chat":
+        page_chat()
+    elif page == "dashboard":
+        page_dashboard()
+    elif page == "carbon":
+        page_carbon_calculator()
+    elif page == "score":
+        page_eco_score()
+    elif page == "schemes":
+        page_schemes()
+    elif page == "recycling":
+        page_recycling()
+    elif page == "products":
+        page_products()
+    elif page == "upload":
+        page_upload()
 
 if __name__ == "__main__":
     main()

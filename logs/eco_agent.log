@@ -177,3 +177,43 @@ Status code: 400, body: {"errors":[{"code":"model_no_support_for_function","mess
 22:13:50 | INFO     | eco_agent:query — RAG query: 'How do I calculate my carbon footprint?'
 22:14:18 | INFO     | eco_agent:chat — Chat request: 'How can I reduce plastic waste at home?'
 22:14:18 | INFO     | eco_agent:query — RAG query: 'How can I reduce plastic waste at home?'
+12:08:07 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+12:08:07 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+12:08:07 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+12:08:07 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+12:08:09 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 20 documents.
+12:08:16 | INFO     | eco_agent:__init__ — Granite LLM initialised (sdk=new): meta-llama/llama-3-3-70b-instruct
+12:08:16 | INFO     | eco_agent:get_llm — Using IBM Granite LLM
+12:08:16 | INFO     | eco_agent:get_pipeline — RAG pipeline initialised
+12:08:16 | INFO     | eco_agent:chat — Chat request: 'Which EV is best for daily commuting in India?'
+12:08:16 | INFO     | eco_agent:query — RAG query: 'Which EV is best for daily commuting in India?'
+12:08:24 | INFO     | eco_agent:chat — Chat request: 'Which EV is best for daily commuting in India?'
+12:08:24 | INFO     | eco_agent:query — RAG query: 'Which EV is best for daily commuting in India?'
+12:08:38 | INFO     | eco_agent:chat — Chat request: 'How do I calculate my carbon footprint?'
+12:08:38 | INFO     | eco_agent:query — RAG query: 'How do I calculate my carbon footprint?'
+12:08:49 | INFO     | eco_agent:chat — Chat request: 'What is PM Surya Ghar scheme?'
+12:08:49 | INFO     | eco_agent:query — RAG query: 'What is PM Surya Ghar scheme?'
+12:09:04 | INFO     | eco_agent:chat — Chat request: 'hii'
+12:09:04 | INFO     | eco_agent:query — RAG query: 'hii'
+12:09:20 | INFO     | eco_agent:chat — Chat request: 'hii'
+12:09:20 | INFO     | eco_agent:query — RAG query: 'hii'
+22:12:25 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+22:12:25 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+22:12:27 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 20 documents.
+22:12:32 | INFO     | eco_agent:__init__ — Granite LLM initialised (sdk=new): meta-llama/llama-3-3-70b-instruct
+22:12:32 | INFO     | eco_agent:get_llm — Using IBM Granite LLM
+22:12:32 | INFO     | eco_agent:get_pipeline — RAG pipeline initialised
+22:12:32 | INFO     | eco_agent:chat — Chat request: 'What is PM Surya Ghar scheme?'
+22:12:32 | INFO     | eco_agent:query — RAG query: 'What is PM Surya Ghar scheme?'
+09:44:00 | INFO     | eco_agent:__init__ — IBM Slate embeddings initialised (sdk=new): ibm/slate-125m-english-rtrvr-v2
+09:44:00 | INFO     | eco_agent:get_embedding_model — Using IBM Slate embedding model
+09:44:00 | INFO     | eco_agent:__init__ — ChromaDB collection 'eco_knowledge_base' loaded — 20 documents.
+09:44:03 | INFO     | eco_agent:__init__ — Granite LLM initialised (sdk=new): meta-llama/llama-3-3-70b-instruct
+09:44:03 | INFO     | eco_agent:get_llm — Using IBM Granite LLM
+09:44:03 | INFO     | eco_agent:get_pipeline — RAG pipeline initialised
+09:44:03 | INFO     | eco_agent:chat — Chat request: 'How can I reduce plastic waste at home?'
+09:44:03 | INFO     | eco_agent:query — RAG query: 'How can I reduce plastic waste at home?'
+09:44:40 | INFO     | eco_agent:chat — Chat request: 'Best ways to save water in my apartment?'
+09:44:40 | INFO     | eco_agent:query — RAG query: 'Best ways to save water in my apartment?'
+09:44:55 | INFO     | eco_agent:chat — Chat request: 'What is PM Surya Ghar scheme?'
+09:44:55 | INFO     | eco_agent:query — RAG query: 'What is PM Surya Ghar scheme?'
